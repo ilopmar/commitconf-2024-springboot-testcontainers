@@ -1,0 +1,7 @@
+CREATE TABLE message(
+    id UUID PRIMARY KEY,
+    text TEXT NOT NULL,
+    created_at TIMESTAMP WITHOUT TIME ZONE NOT NULL,
+    signature VARCHAR(255),
+    signed_at TIMESTAMP WITHOUT TIME ZONE
+);
